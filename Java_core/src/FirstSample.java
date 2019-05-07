@@ -33,5 +33,16 @@ public class FirstSample{
         String stroke_e = "Hello";
         if (stroke_e.equals(hello))
             System.out.println("Строки равны");
+
+        // проверка на наличие символов в строке
+        String str = "";
+        if (str.length() == 0)
+            System.out.println("Строка пуста, имеет значение Null");
+        if (str.equals(""))
+            System.out.println("Строка рава Null");
+        //Ввод данных
+        Scanner in = new Scanner(System.in);
+        String name = in.nextLine();
+        System.out.println(name);
     }
 }
