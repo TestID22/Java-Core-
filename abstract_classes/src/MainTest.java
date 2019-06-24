@@ -23,17 +23,16 @@ public class MainTest {
         mainheroes.add(atlantis);
 
 
-
-        ArrayList <Integer> numberInTeam = new ArrayList<Integer>(3);
-        for (int x : numberInTeam) {
-            int count = 0;
-            count++;
-            numberInTeam.add(count);
+        int [] numberInTeam = new int[3];
+        for (int i = 0; i < numberInTeam.length; i++) {
+            numberInTeam[i] = i;
         }
         System.out.println("Имена всех учатников программы");
         for(Hero j : mainheroes){
             System.out.println(j.getName());
         }
+        for (int x:numberInTeam)
+            System.out.println(x);
 
 
     }
