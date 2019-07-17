@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/linkedListTest.iml" filepath="$PROJECT_DIR$/linkedListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashSetTest.iml" filepath="$PROJECT_DIR$/hashSetTest.iml" />
     </modules>
   </component>
 </project>

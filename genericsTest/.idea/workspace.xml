@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8096dbf0-d290-4134-bdf0-44045fc50a8b" name="Default Changelist" comment="" />
+    <list default="true" id="8096dbf0-d290-4134-bdf0-44045fc50a8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Generics/minmaxGenerixComparable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/minmaxGenerixComparable.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/minmaxGenerixComparable.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/hashSetTest/hashSetTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/hashSetTest/hashSetTest.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/hashSetTest/hashSetTest.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/hashSetTest/out/production/hashSetTest/HashSetTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/hashSetTest/src/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/setTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/setTest.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Collections Framework/setTest.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections Framework/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Collections Framework/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Collections Framework/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Collections Framework/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/september/generics/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+            <state relative-caret-position="660">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -70,8 +85,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +138,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -156,8 +172,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/september/generics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        <state relative-caret-position="660">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
