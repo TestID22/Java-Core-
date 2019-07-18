@@ -1,10 +1,25 @@
+import java.lang.reflect.Array;
+
 public class Main {
     public static void main(String[] args) {
         String [] a = {"I", "Have", "Job", "and", "this", "is", "my", "Dream"};
         Pair <String> mm =  ArrayMinMax.minmax(a);
 
+        Integer[] integers = {55,2,32,5,1,7};
+
         System.out.println("min " + mm.getFirst());
         System.out.println("max " + mm.getSecond());
+        for (String s : a) {
+
+            System.out.print(s + " ");
+        }
+
+        System.out.println();
+
+        Pair<Integer> integerM = ArrayMinMax.minmax(integers);
+        System.out.println(integerM.getFirst());
+        System.out.println(integerM.getSecond());
+
 
     }
 }
