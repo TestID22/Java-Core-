@@ -8,4 +8,10 @@ public class Enemy extends Hero{
     public String getDescription() {
         return String.format("тут только враги АнтиГерой");
     }
+    @Override
+	
+    public void heroPower() {
+    	System.out.println("Супер способность Врагов");
+    	
+    }
 }

@@ -15,5 +15,6 @@ public abstract class Hero {
         return name;
 
     }
+    abstract public void heroPower();
 
 }
