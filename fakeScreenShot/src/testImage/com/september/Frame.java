@@ -1,11 +1,13 @@
 package testImage.com.september;
 
 import java.awt.AWTException;
+import java.awt.Dimension;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.Robot;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
@@ -15,7 +17,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
 
 
 
@@ -29,11 +30,15 @@ public class Frame extends JFrame{
 		this.title = title;
 		
 		setTitle(title);
-		setSize(500, 500);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		buttonStart = new JButton("Скриншот");
+		Toolkit kit = Toolkit.getDefaultToolkit();
+		Dimension screenSize = kit.getScreenSize();
+		int screenWidth = screenSize.width;
+		int screenHeight = screenSize.height;
+		
+		buttonStart = new JButton("Нажмите меня, прошу");
 
 		
 		buttonStart.addActionListener(new ActionListener() {
@@ -41,13 +46,14 @@ public class Frame extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) 
 			{
-				setLocation(1, 1);
+				setVisible(false);
+				setLocation(-300, -300);
 				GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 				GraphicsDevice screen = ge.getDefaultScreenDevice();
 				try {
 					Robot robot = new Robot(screen);
 					robot.delay(1000);
-					BufferedImage image = robot.createScreenCapture(new Rectangle(-1, -1, 1280, 900));
+					BufferedImage image = robot.createScreenCapture(new Rectangle(0, 0, screenSize.width, screenSize.height - 34));
 					ImageFrame imageScren = new ImageFrame(image);
 					imageScren.setVisible(true);
 					
@@ -67,25 +73,33 @@ public class Frame extends JFrame{
 	
 }
 
+/**
+ * 
+ * @param Image image 
+ *
+ */
+
+
 class ImageFrame extends JFrame{
-	private int x = -30, y = -30;
+	private final int x = -10, y = -32; //Переменные для setLocale
 	private JButton btn;
+	
+	Toolkit kit = Toolkit.getDefaultToolkit();
+	Dimension screenSize = kit.getScreenSize();
+	int screenWidth = screenSize.width;
+	int screenHeight = screenSize.height;
+	
 	public ImageFrame(Image image) {
+		
 		setTitle("ScreenShot");
-		setSize(1270, 900);
+		setSize(screenSize.width + 200, screenSize.height);
+		
 		JLabel label = new JLabel(new ImageIcon(image));
+		
 		setLocation(x, y);
 		add(label);
-		btn = new JButton("Вернись, я всё прощу");
-		btn.addActionListener(new ActionListener() {
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				setLocation(100, 100);
-				
-			}
-		});
-		
+	
+		setVisible(false);
 	}
 }		
 		

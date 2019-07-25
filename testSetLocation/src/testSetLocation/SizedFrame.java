@@ -14,7 +14,9 @@ import javax.swing.JPanel;
 public class SizedFrame extends JFrame{
 	public static String name;
 	public SizedFrame() {
+		
 		setLocation(100, 100);
+		
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension screen = kit.getScreenSize();
 		int screenheight = screen.height;
@@ -26,10 +28,9 @@ public class SizedFrame extends JFrame{
 		add(ov);
 		for(int x = 0; x < 100; x++) {
 			ov.setLocation(x, 100);
-		}
-		
-		
+		}		
 	}
+}
 public class DrawRect extends JComponent{
 	super.paintComponent(g);
 	public DrawRect() {
