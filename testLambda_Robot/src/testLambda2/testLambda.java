@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 
 public class testLambda {
 
-	public static void main(String[] args) {
+	public static void main(String []args) {
 		//создаём фрейм в 
 		ButtonFrame frame = new ButtonFrame("Жёлтый");
 	
