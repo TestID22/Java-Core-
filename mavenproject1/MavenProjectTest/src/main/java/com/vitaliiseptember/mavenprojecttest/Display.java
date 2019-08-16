@@ -9,6 +9,8 @@ import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.awt.image.BufferedImage;
+import javax.imageio.plugins.tiff.GeoTIFFTagSet;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
@@ -17,9 +19,15 @@ import javax.swing.JFrame;
  * @author vital
  */
 public class Display extends JFrame{
+
     private JFrame frame;
     private static Canvas canvas;
     Hero hero = new Hero();
+    //add buffers
+    private static BufferedImage bufferedImage;
+    private static int [] data;
+    private static Graphics bufferedGtapGraphics;
+
 
     public Display() {
         frame = new JFrame("window");
@@ -36,6 +44,7 @@ public class Display extends JFrame{
             }
             
         };
+
         canvas.setBackground(Color.BLACK);
         frame.add(canvas);
         frame.getContentPane().add(canvas);

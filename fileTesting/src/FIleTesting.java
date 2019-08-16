@@ -14,8 +14,8 @@ import java.io.*;
 public class FIleTesting {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        File file = new File("C:\\Users\\vital\\Desktop\\test.txt");
-        FileInputStream stream = new FileInputStream(new File("C:\\Users\\vital\\Desktop\\test.txt"));
+        File file = new File("C:\\Users\\vital\\Desktop\\план с#.rtf");
+        FileInputStream stream = new FileInputStream(file);
         int lenght = stream.available(); // получаем количество
         byte [] data = new byte[lenght]; // создаём массив размером, с считываемые данные
         stream.read(data);
