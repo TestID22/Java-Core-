@@ -3,8 +3,8 @@ package com.september.dGame;
 import javax.swing.JFrame;
 
 /**
- * Hello world!
- *
+ * 
+ * 
  */
 public class App 
 {
@@ -18,14 +18,13 @@ public class App
     {
         Display display = new Display();
         JFrame frame = new JFrame();
-        
-        
         frame.add(display);
         frame.setTitle(TITLE);
         frame.setVisible(true);
         frame.setSize(WIDTH, HEIGHT);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocationRelativeTo(null);
+        frame.setLocationRelativeTo(null); 
+       
         
         display.start();
     }
