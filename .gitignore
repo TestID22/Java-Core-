@@ -1,2 +1,26 @@
 .xml
 .metadata
+/Generics/stringGenerics/nbproject/private/
+/Generics/stringGenerics/build/
+/thousandContaindThree/nbproject/private/
+/thousandContaindThree/build/
+*.xml
+/Generics/genericsMethodAndVarargs/nbproject/private/
+/Generics/genericsMethodAndVarargs/build/
+/testBank/nbproject/private/
+/testBank/build/
+/Java Collections Framework/arrayApp(javaStructAndAlgorithm)/nbproject/private/
+/Java Collections Framework/arrayApp(javaStructAndAlgorithm)/build/
+/Java Collections Framework/arrayApp(javaStructAndAlgorithm)/dist/
+/BinarySearch/nbproject/private/
+/BinarySearch/build/
+/IOtest/nbproject/private/
+/IOtest/build/
+/Socket and Web/SocketTest/nbproject/private/
+/Socket and Web/SocketTest/build/
+/IOtest/dist/
+/Socket and Web/mavenproject1/MavenProjectTest/target/
+/Socket and Web/mavenproject1/MavenProjectTest/bin/target/
+/mavenproject1/MavenProjectTest/bin/nbproject/
+/fakeScreenShot/build/
+/fakeScreenShot/dist/

@@ -20,6 +20,7 @@ public class Display extends Canvas implements Runnable{
 	//в пиксель помешаем растеризованный image, который представляет собой массив цветов для пикселей
 	private int[]pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
 	
+
 	
 	public Display() {
 			
@@ -65,6 +66,10 @@ public class Display extends Canvas implements Runnable{
 		
 		g.setColor(new Color(0xff1abdeb));
 		g.fillRect(0, 0, getWidth(), getHeight());
+		
+		
+		
+		g.fillOval(10, 10, 100, 200);
 		
 		bs.show();
 		g.dispose();
