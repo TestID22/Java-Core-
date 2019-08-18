@@ -14,7 +14,7 @@ public class Main{
 		JFrame frame = getMeFrame("Main");
 		JPanel panel = new JPanel();
 		JButton bt = new JButton("Make This Window BLACK");
-		JButton btRed = new JButton("������ �������");
+		JButton btRed = new JButton("Make Beauty");
 		panel.add(bt);
 		panel.add(btRed);
 		frame.add(panel);

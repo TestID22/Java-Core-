@@ -11,6 +11,7 @@ import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferInt;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -25,6 +26,7 @@ public class Frame extends JFrame{
 	private String title;
 	private JButton buttonStart;
 	private JPanel panel = new JPanel();
+	private BufferedImage image;
 	
 	public Frame(String title) {
 		this.title = title;
@@ -35,6 +37,7 @@ public class Frame extends JFrame{
 		
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension screenSize = kit.getScreenSize();
+		
 		int screenWidth = screenSize.width;
 		int screenHeight = screenSize.height;
 		
@@ -48,12 +51,14 @@ public class Frame extends JFrame{
 			{
 				setVisible(false);
 				setLocation(-300, -300);
+				
 				GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 				GraphicsDevice screen = ge.getDefaultScreenDevice();
+				
 				try {
 					Robot robot = new Robot(screen);
 					robot.delay(1000);
-					BufferedImage image = robot.createScreenCapture(new Rectangle(0, 0, screenSize.width, screenSize.height - 34));
+					image = robot.createScreenCapture(new Rectangle(0, 0, screenSize.width, screenSize.height - 34));
 					ImageFrame imageScren = new ImageFrame(image);
 					imageScren.setVisible(true);
 					
@@ -69,7 +74,12 @@ public class Frame extends JFrame{
 		pack();
 		
 	}
-	
+//	public void melt() {
+//		int[]pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
+//		for(int i = 0; i < 100; i++) {
+//			pixels[i] = i - 10;
+//		}
+//	}
 	
 }
 
@@ -99,7 +109,7 @@ class ImageFrame extends JFrame{
 		setLocation(x, y);
 		add(label);
 	
-		setVisible(false);
+		setVisible(true);
 	}
 }		
 		

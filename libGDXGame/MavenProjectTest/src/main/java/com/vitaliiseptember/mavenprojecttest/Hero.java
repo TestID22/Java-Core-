@@ -22,6 +22,7 @@ public class Hero extends JPanel{
         ImageIcon imageIcon = new ImageIcon("D:\\Code_Code_Code\\Java-Core-\\Socket and Web\\mavenproject1\\MavenProjectTest\\src\\main\\java\\res\\skelet.png");
         image = imageIcon.getImage();
     }
+    
     public void render(Canvas canvas){
         
     }

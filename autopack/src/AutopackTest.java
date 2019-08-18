@@ -13,8 +13,8 @@ public class AutopackTest {
 
         ArrayList <Integer> numsArratList = new ArrayList <Integer>(10); //списочный массив
 
-        numsArratList.add(2); //методы класса списочного массива
-        numsArratList.add(54);
+        numsArratList.add(2); //методы класса списочного массива 
+        numsArratList.add(54);// добавляем примитивы, они автоупаковываются в объекты Integer
         
         int index = numsArratList.get(0); //index - первый элемент массива
 

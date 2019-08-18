@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class NotHelloWorldFrame extends JFrame{
 	public NotHelloWorldFrame() {
-		// TODO Auto-generated constructor stub
+		
 		setTitle("NotAHacker");
 		setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
 		

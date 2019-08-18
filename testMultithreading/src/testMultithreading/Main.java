@@ -33,6 +33,7 @@ class ConsoleHate implements Runnable{
 				Thread.sleep(1000);
 			}
 		}
+		
 		catch (InterruptedException e) 
 		{
 				e.printStackTrace();
@@ -41,22 +42,27 @@ class ConsoleHate implements Runnable{
 }
 
 class Love implements Runnable{
+	
+	Scanner in = new Scanner(System.in);
+	String interput = in.nextLine();
+	
 	@Override
 	public void run() {
 		try
 		{
-			Scanner in = new Scanner(System.in);
+			
 			while(true)
 			{
 				System.out.println("Введите команду -'hate' или 'love' ");
-				String interput = in.nextLine();
+				
+				
 				if(interput.equalsIgnoreCase("hate"))
 					System.exit(0);
 				else
 				{
 					System.out.println("Давай по новой, Миша");
 				}
-				Thread.sleep(10);
+				Thread.sleep(1000);
 			}
 		}
 		catch (InterruptedException e) {
