@@ -7,14 +7,13 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
-import javax.swing.JFrame;
 
 public class Display extends Canvas implements Runnable{
 		
 	private Thread thread;
 	private static boolean running = false;
 	
-	private BufferStrategy bs;
+	private BufferStrategy bs = getBufferStrategy();
 	//помещаем в память картинку с размерами и Типом int RGB 
 	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	//в пиксель помешаем растеризованный image, который представляет собой массив цветов для пикселей
@@ -57,7 +56,9 @@ public class Display extends Canvas implements Runnable{
 	}
 	
 	public void render() {
-		BufferStrategy bs = getBufferStrategy();
+		
+		bs = getBufferStrategy();
+		
 		if(bs == null) {
 			createBufferStrategy(3);
 		return;
