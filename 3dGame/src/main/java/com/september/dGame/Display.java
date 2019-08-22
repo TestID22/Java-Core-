@@ -9,17 +9,23 @@ import java.awt.image.DataBufferInt;
 
 
 public class Display extends Canvas implements Runnable{
+	
+	static final long serialVersionUID = 1L;
+	
+	private static int width = 600;
+	private static int height = 600;
 		
 	private Thread thread;
 	private static boolean running = false;
 	
-	private BufferStrategy bs = getBufferStrategy();
+	private BufferStrategy bs;
 	//помещаем в память картинку с размерами и Типом int RGB 
 	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	//в пиксель помешаем растеризованный image, который представляет собой массив цветов для пикселей
 	private int[]pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
 	
-
+	private Screen screen;
+	
 	
 	public Display() {
 			
@@ -30,6 +36,9 @@ public class Display extends Canvas implements Runnable{
 		running = true;
 		thread = new Thread(this, "Display");//создадим объект потока
 		thread.start(); 					//стартуем поток, который запустит метод run и код внутри
+		
+		screen = new Screen(width, height);
+		
 	}
 	
 	public synchronized void stop() {
@@ -44,7 +53,6 @@ public class Display extends Canvas implements Runnable{
 	public void run() {
 		while(running)
 		{
-			System.out.println("Running...");
 			update();
 			render();
 		}
@@ -56,22 +64,23 @@ public class Display extends Canvas implements Runnable{
 	}
 	
 	public void render() {
-		
+		//создаём БаферСтртеджи из неё будем вытягивать ручками графику
 		bs = getBufferStrategy();
 		
 		if(bs == null) {
 			createBufferStrategy(3);
 		return;
 		}
-		Graphics g = bs.getDrawGraphics();
+		Graphics g = bs.getDrawGraphics(); // берём графику из буфера
+		
+		screen.render();
+		for(int i = 0; i < pixels.length; i++) 
+			pixels[i] = screen.pixels[i];
 		
 		g.setColor(new Color(0xff1abdeb));
 		g.fillRect(0, 0, getWidth(), getHeight());
-		
-		
-		
-		g.fillOval(10, 10, 100, 200);
-		
+		g.drawImage(image, 0, 0 ,getWidth(), getHeight(), null);
+	
 		bs.show();
 		g.dispose();
 	}
