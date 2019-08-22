@@ -20,9 +20,9 @@ public class Display extends Canvas implements Runnable{
 	
 	private BufferStrategy bs;
 	//помещаем в память картинку с размерами и Типом int RGB 
-	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 	//в пиксель помешаем растеризованный image, который представляет собой массив цветов для пикселей
-	private int[]pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
+	public int[]pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
 	
 	private Screen screen;
 	
@@ -73,16 +73,20 @@ public class Display extends Canvas implements Runnable{
 		}
 		Graphics g = bs.getDrawGraphics(); // берём графику из буфера
 		
+		
+		
 		screen.render();
-		for(int i = 0; i < pixels.length; i++) 
+		for(int i = 1; i < pixels.length; i++) 
 			pixels[i] = screen.pixels[i];
 		
-		g.setColor(new Color(0xff1abdeb));
+		g.setColor(new Color(0xff00ff));
 		g.fillRect(0, 0, getWidth(), getHeight());
+		
 		g.drawImage(image, 0, 0 ,getWidth(), getHeight(), null);
 	
-		bs.show();
+		
 		g.dispose();
+		bs.show();
 	}
 	
 	

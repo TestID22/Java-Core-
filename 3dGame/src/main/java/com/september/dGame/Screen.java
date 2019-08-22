@@ -18,7 +18,7 @@ public class Screen {
 		
 		for (int y = 0; y < height; y++) {
 			for(int x = 0; x < width; x++)
-				pixels[20 + 100 * width] = 0xffff00ff;
+				pixels[20 + 100 * width] = 0x00f7ff;
 		}
 	}
 	
