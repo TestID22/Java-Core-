@@ -1,10 +1,13 @@
 package com.september.dGame;
 
+import java.util.Random;
+
 public class Screen {
 	
 	private int width;
 	private int height;
 	public int[] pixels;
+	private static final Random random = new Random();
 	
 	public Screen(int width, int height) {
 		
@@ -16,9 +19,9 @@ public class Screen {
 	
 	public void render() {
 		
-		for (int y = 0; y < height; y++) {
+		for (int y = 300; y < height - 250; y++) {
 			for(int x = 0; x < width; x++)
-				pixels[20 + 100 * width] = 0x00f7ff;
+				pixels[x + (y * width)] = random.nextInt(0xffffff);
 		}
 	}
 	

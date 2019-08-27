@@ -1,38 +1,43 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package testimageandhandler;
 
-import java.awt.HeadlessException;
-import java.awt.Image;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
+import java.awt.Canvas;
+import java.awt.Graphics;
+import java.awt.image.BufferStrategy;
 
-
-public class Display extends JFrame{
-    //создадим панель
-    ImgPanel panel;
-        //константы размера фрейма
-    final int screenWidth = 500;
-    final int screenHeight = 187;
-    //иконка 
-    ImageIcon iconF = new ImageIcon("D:\\Code_Code_Code\\Java-Core-\\"
-            + "testImageAndHandler\\src\\res\\icon.png");
-    Image image = iconF.getImage();
-    
-    public Display() throws HeadlessException {
-        setSize(screenWidth, screenHeight);
-        setTitle("Чмунь - X:Месть Вени");
-        setVisible(true);
-        setResizable(false);
-        setLocation(100, 100);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setIconImage(image);
-        panel = new ImgPanel();
-        add(panel);
-        
-    }
-    
+public class Display extends Canvas implements Runnable{
+	
+	private Thread thread;
+	private static boolean running;
+	BufferStrategy bs;
+	
+	
+	
+	
+	public void start() {
+		thread = new Thread(this, "DISP");
+		thread.start();
+	}
+	
+	
+	@Override
+	public void run() {
+		while(running) {
+			render();
+		}
+		
+	}
+	
+	public void render(){
+		bs = getBufferStrategy();
+		if(bs == null) {
+			createBufferStrategy(2);
+		return;
+		}
+		Graphics g = bs.getDrawGraphics();
+		
+		g.fillRect(0, 0, 10, 10);
+		g.dispose();
+		bs.show();
+		
+	}
 }
