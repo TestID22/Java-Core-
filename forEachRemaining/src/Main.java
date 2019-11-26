@@ -19,14 +19,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Перевёрнутый массив строк - Вводите данные через пробел");
         Scanner in = new Scanner(System.in);
-
+        //ввод данных
         String nameFootbals = in.nextLine();
-        String [] names = nameFootbals.split(" ");
+        String[] names = nameFootbals.split(" ");//делим по пробелу
+
         for (String n : names){
             char[] nChar = n.toCharArray();
             System.out.println();
-            for(int i = nChar.length -1; i >= 0; i--)
+            for(int i = nChar.length -1; i >= 0; i--){
                 System.out.print(nChar[i]);
+            }
+
         }
 
         System.out.println();

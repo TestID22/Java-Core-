@@ -5,7 +5,6 @@ public class BadNumExeption extends Exception{
         return number;
     }
     public BadNumExeption(String message, int num){
-
         super(message);
         number = num;
     }
