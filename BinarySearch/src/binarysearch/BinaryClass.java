@@ -35,15 +35,5 @@ public class BinaryClass {
                     last = curIn - 1;
             }
         }
-                
-        
     }
-       
-    
-    public int size(){
-        return nElements;
-    }
-    
-    
-  
 }
