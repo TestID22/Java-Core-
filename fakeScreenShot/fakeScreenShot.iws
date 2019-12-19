@@ -2,32 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f56525-9ebb-46ed-b1e6-1b99ed2521c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testImage/com/september/ImageFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3dGame/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../3dGame/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3dGame/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../3dGame/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3dGame/src/main/java/com/september/dGame/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3dGame/src/main/java/com/september/dGame/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cesar/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../Cesar/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cesar/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cesar/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cesar/src/main/java/com/september/Cesar/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cesar/src/main/java/com/september/Cesar/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autopack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autopack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/autopack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../autopack/autopack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/out/production/autopack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/out/production/autopack/AutopackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autopack/out/production/autopack/AutopackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autopack/out/production/autopack/Test/TestAutopack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autopack/out/production/autopack/Test/TestAutopack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fakeScreenShot.iws" beforeDir="false" afterPath="$PROJECT_DIR$/fakeScreenShot.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fliyningFrame/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frameScreenFly/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testComponent/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/Frame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/Frame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/ImageFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fakeScreenShot/testImage/com/september/ImageFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testImage/com/september/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testImage/com/september/Frame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -45,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testImage/TestImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="180">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -54,16 +57,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testImage/com/september/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="861">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testImage/com/september/ImageFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/testImage/com/september/Frame.java" />
+        <option value="$PROJECT_DIR$/src/testImage/com/september/ImageFrame.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -78,13 +108,42 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fakeScreenShot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fakeScreenShot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fakeScreenShot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fakeScreenShot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fakeScreenShot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fakeScreenShot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testImage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fakeScreenShot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fakeScreenShot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testImage" type="462c0819:PsiDirectoryNode" />
+              <item name="september" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/Android/SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -135,14 +194,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -151,7 +211,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32794458" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39892185" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.17638889" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -174,15 +234,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testImage/TestImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="180">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testImage/com/september/ImageFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testImage/com/september/Frame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="861">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
